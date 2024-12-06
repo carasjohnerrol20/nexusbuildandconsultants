@@ -454,7 +454,7 @@ require("header.php");
 					<div class="single_portfolio" data-cue="zoomIn">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/three-architects-wearing-helmets.jpg" alt="" /></a>
+								<a href="portfolio-details.html"><img src="assets/images/nexus/company-workers-brainstorming-board-meeting.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
@@ -470,7 +470,7 @@ require("header.php");
 					<div class="single_portfolio upp" data-cue="zoomOut">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/engineer-meeting-architectural-project-working.jpg" alt="" /></a>
+								<a href="portfolio-details.html"><img src="assets/images/nexus/white-collar-workers-works-building-site.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
@@ -486,7 +486,7 @@ require("header.php");
 					<div class="single_portfolio upp" data-cue="zoomIn">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/young-couple-using-digital-tablet-with-their-insurance-agent-consultations-office.jpg" alt="" /></a>
+								<a href="portfolio-details.html"><img src="assets/images/nexus/entrepreneurs-discussing-work-results-meeting.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
@@ -502,7 +502,7 @@ require("header.php");
 					<div class="single_portfolio" data-cue="zoomOut">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/close-up-people-working-as-team.jpg" alt="" /></a>
+								<a href="portfolio-details.html"><img src="assets/images/nexus/three-architects-wearing-helmets.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
