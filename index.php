@@ -46,7 +46,7 @@ require("header.php");
 				<div class="col-lg-4">
 					<div class="slider-thumb">
 						<!-- <img src="assets/images/slider/software-hero-img.png" alt=""> -->
-						<img src="assets/images/NexusGIF.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF.gif">
+						<img src="assets/images/NEXUS-Build-and-Consultants-LLC-GIF.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF-Blue.gif">
 						<!-- style="width: 550px; height: 550px;" -->
 					</div>
 				</div>
@@ -100,7 +100,7 @@ require("header.php");
 							<img src="assets/images/video1.jpg" alt="" />
 							<div class="main_video">
 								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="fa fa-play"></i></a>
+									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/nFuEQqxCrxY"><i class="fa fa-play"></i></a>
 								</div>
 							</div>
 						</div>
