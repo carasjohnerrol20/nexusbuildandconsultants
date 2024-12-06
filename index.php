@@ -46,7 +46,8 @@ require("header.php");
 				<div class="col-lg-4">
 					<div class="slider-thumb">
 						<!-- <img src="assets/images/slider/software-hero-img.png" alt=""> -->
-						<img src="assets/images/NexusGIF.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF.gif" style="width: 550px; height: 550px;">
+						<img src="assets/images/NexusGIF.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF.gif">
+						<!-- style="width: 550px; height: 550px;" -->
 					</div>
 				</div>
 			</div>
