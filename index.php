@@ -138,7 +138,7 @@ require("header.php");
 	<!--==================================================-->
 	<!----- Start NEXUS Vision And Mission Area ----->
 	<!--==================================================-->
-	<div id="Mission" class="service_area style-14 pt-100 pb-90">
+	<div id="VisionMission" class="service_area style-14 pt-100 pb-90">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6">

@@ -8,7 +8,11 @@
 						<a href="index" class="logo"><img class="down" src="assets/images/NEXUS-Build-and-Consultants-LLC-header.png" alt="NEXUS-Build-and-Consultants-LLC-header"> <img class="main_sticky" src="assets/images/NEXUS-Build-and-Consultants-LLC-headerWhite.png" alt="NEXUS-Build-and-Consultants-LLC-headerWhite"></a>
 						<ul class="clearfix">
 						<li><a href="index">Home</a></li>
-						<li><a href="index#AboutUs">About Us</a></li>
+						<li><a href="index#AboutUs">About Us</a>
+							<ul>
+								<li><a href="index#VisionMission">Vision and Mission</a></li>
+							</ul>
+						</li>
 						<li><a href="index#Services">Services</a>
 							<!-- <ul>
 								<li><a href="services">Service One</a></li>
