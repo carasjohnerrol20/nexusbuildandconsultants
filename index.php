@@ -100,7 +100,7 @@ require("header.php");
 							<img src="assets/images/video1.jpg" alt="" />
 							<div class="main_video">
 								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/nFuEQqxCrxY"><i class="fa fa-play"></i></a>
+									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/Gz3JzAEOLTk"><i class="fa fa-play"></i></a>
 								</div>
 							</div>
 						</div>
