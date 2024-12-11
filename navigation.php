@@ -14,6 +14,7 @@
 								<li><a href="services">Service One</a></li>
 							</ul> -->
 						</li>
+						<li><a href="careers">Careers</a></li>
                         <li><a href="index#testimonial_area">Testimonials</a></li>
 						<li><a href="contact">Contact Us</a></li>
 						<div class="donate-btn-header">
@@ -34,6 +35,7 @@
 					<li><a href="index">Home</a></li>
 					<li><a href="index#AboutUs">About Us</a></li>
                     <li><a href="index#Services">Services</a></li>
+					<li><a href="careers">Careers</a></li>
 					<li><a href="index#testimonial_area">Testimonials</a></li>
 					<li><a href="contact">Contact Us</a></li>
 				</ul>
