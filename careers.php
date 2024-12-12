@@ -96,7 +96,7 @@ require("header.php");
                     <div class="card mb-3 shadow border-0">
                         <div class="card-body">
                         <a href="#">   
-                            <h5 class="card-title text-primary fw-bold">URGENT: BUSINESS STRATEGIST</h5>
+                            <h5 class="card-title text-primary fw-bold">BUSINESS STRATEGIST</h5>
                         </a> 
                             <p class="card-text text-muted">Greenville, South Carolina, United States</p>
                             <div class="d-flex flex-wrap gap-2">
@@ -124,7 +124,7 @@ require("header.php");
                     <div class="card mb-3 shadow border-0">
                         <div class="card-body">
                             <a href="#">  
-                            <h5 class="card-title text-primary fw-bold">URGENT: RENEWABLE ENERGY STRATEGIST</h5>
+                            <h5 class="card-title text-primary fw-bold">RENEWABLE ENERGY STRATEGIST</h5>
                             </a>
                             <p class="card-text text-muted">Berlin, Germany</p>
                             <div class="d-flex flex-wrap gap-2">

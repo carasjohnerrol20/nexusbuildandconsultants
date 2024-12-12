@@ -126,7 +126,7 @@ require("header.php");
 						</div>
 					</div>
 					<div class="contact_from">
-						<form id="contact_form" action="#" method="POST" id="dreamit-form">
+						<form id="contact_form" action="mail.php" method="POST" id="dreamit-form">
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="form_box mb-30">
