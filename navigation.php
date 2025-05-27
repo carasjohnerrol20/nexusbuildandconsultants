@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="menu">
-						<a href="index" class="logo"><img class="down" src="assets/images/NEXUS-Build-and-Consultants-LLC-header.png" alt="NEXUS-Build-and-Consultants-LLC-header"> <img class="main_sticky" src="assets/images/NEXUS-Build-and-Consultants-LLC-headerWhite.png" alt="NEXUS-Build-and-Consultants-LLC-headerWhite"></a>
+						<a href="index" class="logo"><img class="down" src="assets/images/brand/NEXUS-Build-and-Consultants-LLC-header.png" alt="NEXUS-Build-and-Consultants-LLC-header"> <img class="main_sticky" src="assets/images/brand/NEXUS-Build-and-Consultants-LLC-headerWhite.png" alt="NEXUS-Build-and-Consultants-LLC-headerWhite"></a>
 						<ul class="clearfix">
 						<li><a href="index">Home</a></li>
 						<li><a href="index#AboutUs">About Us</a>
@@ -34,7 +34,7 @@
 	<div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
 		<div class="mobile-menu">
 			<nav class="techno_menu">
-			<a href="index" class="logo"><img class="main_sticky" src="assets/images/NEXUS-Build-and-Consultants-LLC-MobileLogo.png" alt="NEXUS-Build-and-Consultants-LLC-MobileLogo"></a>
+			<a href="index" class="logo"><img class="main_sticky" src="assets/images/brand/NEXUS-Build-and-Consultants-LLC-MobileLogo.png" alt="NEXUS-Build-and-Consultants-LLC-MobileLogo"></a>
 				<ul class="clearfix">
 					<li><a href="index">Home</a></li>
 					<li><a href="index#AboutUs">About Us</a></li>

@@ -126,26 +126,28 @@ require("header.php");
 						</div>
 					</div>
 					<div class="contact_from">
-						<form id="contact_form" action="mail.php" method="POST" id="dreamit-form">
+						<!-- <form id="contact_form" action="mail.php" method="POST" id="dreamit-form"> -->
+						<form action="forms/contact.php" method="post" role="form" id="dreamit-form" id="contact_form" data-recaptcha-site-key="6Lfyl6AqAAAAAAtvNKDs8JczaErlZ3AVa9myMnhi">
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-12">
 									<div class="form_box mb-30">
-										<input type="text" name="name"  placeholder="Name">
+										<input type="text" class="form-control" name="first_name" hidden>
+										<input type="text" name="name" id="name" placeholder="Name">
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form_box mb-30">
-										<input type="email" name="email" placeholder="Email Address">
+										<input type="email" name="email" id="email" placeholder="Email Address">
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form_box mb-30">
-										<input type="text" name="phone" placeholder="Phone Number">
+										<input type="tel" name="phone" placeholder="Phone Number">
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-12">
 									<div class="form_box mb-30">
-										<input type="text" name="web" placeholder="Website">
+										<input type="text" name="subject" id="subject" placeholder="Subject">
 									</div>
 								</div>
 								<div class="col-lg-12">

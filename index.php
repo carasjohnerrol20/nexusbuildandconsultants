@@ -46,7 +46,7 @@ require("header.php");
 				<div class="col-lg-4">
 					<div class="slider-thumb">
 						<!-- <img src="assets/images/slider/software-hero-img.png" alt=""> -->
-						<img src="assets/images/NEXUS-Build-and-Consultants-LLC-GIF-Big.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF-Blue.gif" style="width: 450px; height: 450px;">
+						<img src="assets/images/brand/NEXUS-Build-and-Consultants-LLC-GIF-Big.gif" alt="NEXUS-Build-and-Consultants-LLC-GIF-Blue.gif" style="width: 450px; height: 450px;">
 						<!-- style="width: 550px; height: 550px;" -->
 					</div>
 				</div>
@@ -159,7 +159,7 @@ require("header.php");
 					<div class="service_single_box" data-cue="zoomIn">
 						<div class="box-head">
 							<div class="service_icon">
-								<img src="assets/images/vision.png" alt="">
+								<img src="assets/images/services/vision.png" alt="">
 							</div>
 							<div class="service_title ">
 								<h3>Vision </h3>
@@ -179,7 +179,7 @@ require("header.php");
 					<div class="service_single_box" data-cue="zoomOut">
 						<div class="box-head">
 							<div class="service_icon">
-								<img src="assets/images/mission.png" alt="">
+								<img src="assets/images/services/mission.png" alt="">
 							</div>
 							<div class="service_title ">
 								<h3>Mission</h3>
@@ -227,7 +227,7 @@ require("header.php");
 					<div class="service_single_box" data-cue="zoomIn">
 						<div class="box-head">
 							<div class="service_icon">
-								<img src="assets/images/government.png" alt="">
+								<img src="assets/images/services/government.png" alt="">
 							</div>
 							<div class="service_title ">
 								<h6>Government Agencies and Military Organizations </h6>
@@ -247,7 +247,7 @@ require("header.php");
 					<div class="service_single_box" data-cue="zoomOut">
 						<div class="box-head">
 							<div class="service_icon">
-								<img src="assets/images/engineering.png" alt="">
+								<img src="assets/images/services/engineering.png" alt="">
 							</div>
 							<div class="service_title ">
 								<h6>Construction and Engineering Firms</h6>
@@ -267,7 +267,7 @@ require("header.php");
 					<div class="service_single_box" data-cue="zoomIn">
 						<div class="box-head">
 							<div class="service_icon">
-								<img src="assets/images/healthcare.png" alt="">
+								<img src="assets/images/services/healthcare.png" alt="">
 							</div>
 							<div class="service_title ">
 								<h6>Healthcare Facilities and Institutions</h6>
@@ -521,14 +521,14 @@ require("header.php");
 					<div class="single_portfolio" data-cue="zoomIn">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/company-workers-brainstorming-board-meeting.png" alt="" /></a>
+								<a href="#"><img src="assets/images/nexus/company-workers-brainstorming-board-meeting.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
 							<span>Build and Consultants</span>
-							<h2><a href="portfolio-details.html">Pharetra lectus luctus ornare sollicitudin.</a></h2>
+							<h2><a href="#">NEXUS Build and Consultants</a></h2>
 							<div class="portfolio-icon">
-								<a href="portfolio-details.html"><i class="fa fa-long-arrow-right"></i></a>
+								<a href="#"><i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -537,14 +537,14 @@ require("header.php");
 					<div class="single_portfolio upp" data-cue="zoomOut">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/white-collar-workers-works-building-site.png" alt="" /></a>
+								<a href="#"><img src="assets/images/nexus/white-collar-workers-works-building-site.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
 							<span>Build and Consultants</span>
-							<h2><a href="portfolio-details.html">Pharetra lectus luctus ornare sollicitudin.</a></h2>
+							<h2><a href="#">NEXUS Build and Consultants</a></h2>
 							<div class="portfolio-icon">
-								<a href="portfolio-details.html"><i class="fa fa-long-arrow-right"></i></a>
+								<a href="#"><i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -553,14 +553,14 @@ require("header.php");
 					<div class="single_portfolio upp" data-cue="zoomIn">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/entrepreneurs-discussing-work-results-meeting.png" alt="" /></a>
+								<a href="#"><img src="assets/images/nexus/entrepreneurs-discussing-work-results-meeting.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
 							<span>Build and Consultants</span>
-							<h2><a href="portfolio-details.html">Pharetra lectus luctus ornare sollicitudin.</a></h2>
+							<h2><a href="#">NEXUS Build and Consultants</a></h2>
 							<div class="portfolio-icon">
-								<a href="portfolio-details.html"><i class="fa fa-long-arrow-right"></i></a>
+								<a href="#"><i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -569,14 +569,14 @@ require("header.php");
 					<div class="single_portfolio" data-cue="zoomOut">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="portfolio-details.html"><img src="assets/images/nexus/three-architects-wearing-helmets.png" alt="" /></a>
+								<a href="#"><img src="assets/images/nexus/three-architects-wearing-helmets.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="portfolio_content">
 							<span>Build and Consultants</span>
-							<h2><a href="portfolio-details.html">Pharetra lectus luctus ornare sollicitudin.</a></h2>
+							<h2><a href="#">NEXUS Build and Consultants</a></h2>
 							<div class="portfolio-icon">
-								<a href="portfolio-details.html"><i class="fa fa-long-arrow-right"></i></a>
+								<a href="#"><i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -613,7 +613,7 @@ require("header.php");
 					<div class="single_process_work" data-cue="zoomIn">
 						<div class="single_it_work_content">
 							<div class="work_number">
-								<img src="assets/images/software-work-icon1.png" alt="icon">
+								<img src="assets/images/galery/software-work-icon1.png" alt="icon">
 							</div>
 							<div class="single_work_content_title pt-1">
 								<h4>Innovation Strategy</h4>
@@ -628,7 +628,7 @@ require("header.php");
 					<div class="single_process_work" data-cue="zoomIn">
 						<div class="single_it_work_content">
 							<div class="work_number">
-								<img src="assets/images/software-work-icon2.png" alt="icon">
+								<img src="assets/images/galery/software-work-icon2.png" alt="icon">
 							</div>
 							<div class="single_work_content_title pt-1">
 								<h4>Customized Solutions</h4>
@@ -643,7 +643,7 @@ require("header.php");
 					<div class="single_process_work" data-cue="zoomIn">
 						<div class="single_it_work_content">
 							<div class="work_number">
-								<img src="assets/images/software-work-icon3.png" alt="icon">
+								<img src="assets/images/galery/software-work-icon3.png" alt="icon">
 							</div>
 							<div class="single_work_content_title pt-1">
 								<h4>Implementation & Collaboration</h4>
@@ -658,7 +658,7 @@ require("header.php");
 					<div class="single_process_work" data-cue="zoomIn">
 						<div class="single_it_work_content">
 							<div class="work_number">
-								<img src="assets/images/software-work-icon4.png" alt="icon">
+								<img src="assets/images/galery/software-work-icon4.png" alt="icon">
 							</div>
 							<div class="single_work_content_title pt-1">
 								<h4>Sustainable Impact</h4>
@@ -697,7 +697,7 @@ require("header.php");
 				<div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
-							<img src="assets/images/software-team-img3.png" alt="img" />
+							<img src="assets/images/team/software-team-img3.png" alt="img" />
 							<div class="team_social_icon">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -713,7 +713,7 @@ require("header.php");
 				<div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
-							<img src="assets/images/software-team-img2.png" alt="img" />
+							<img src="assets/images/team/software-team-img2.png" alt="img" />
 							<div class="team_social_icon">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -729,7 +729,7 @@ require("header.php");
 				<div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
-							<img src="assets/images/software-team-img3.png" alt="img" />
+							<img src="assets/images/team/software-team-img3.png" alt="img" />
 							<div class="team_social_icon">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -745,7 +745,7 @@ require("header.php");
 				<div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
-							<img src="assets/images/software-team-img4.png" alt="img" />
+							<img src="assets/images/team/		software-team-img4.png" alt="img" />
 							<div class="team_social_icon">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="bi bi-twitter-x"></i></a>

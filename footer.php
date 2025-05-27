@@ -7,7 +7,7 @@
 				<div class="col-lg-5 col-md-5 col-sm-12">
 					<div class="widget widgets-company-info" data-cue="zoomIn">
 						<div class="footer-bottom-logo pb-40">
-							<img src="assets/images/NEXUS-Build-and-Consultants-LLC-footer.png" alt="NEXUS-Build-and-Consultants-LLC-footer" />
+							<img src="assets/images/brand/NEXUS-Build-and-Consultants-LLC-footer.png" alt="NEXUS-Build-and-Consultants-LLC-footer" />
 						</div>
 						<div class="company-info-desc">
 							<p>NEXUS Build and Consultants, LLC (NEXUS) is a sustainability-focused partner, empowering businesses with tailored solutions that drive innovation, long term value, and positive impact. We integrate expertise and strategy to help organizations achieve their goals and lead sustainable innovation.</p>
@@ -46,9 +46,10 @@
 								<span>Social Media</span>
 							</div>
 							<div class="follow-company-icon">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="bi bi-twitter-x"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-instagram"></i></a>
 							</div>
 					</div>					
 				</div>
@@ -117,6 +118,7 @@
 	<script src="assets/js/theme.js"></script>
 	<!-- jquery js -->	
 	<script src="assets/js/scrollCue.min.js"></script>
+	<script src="assets/php-email-form/validate.js"></script>
 
 </body>
 </html>
