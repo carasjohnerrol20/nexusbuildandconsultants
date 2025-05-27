@@ -57,20 +57,20 @@ require("header.php");
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<!-- <div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="single_contact_address text_center mb-30">
 						<div class="contact_address_icon pb-3">
 							<i class="fa fa-map-o"></i>
 						</div>
 						<div class="contact_address_title pb-2">
-							<h4>Enter Your Address</h4>
+							<h4>Our Address</h4>
 						</div>
 						<div class="contact_address_text">
 							<p>30 N Gould St. Site N, Sheridan, WY 82801</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				</div> -->
+				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="single_contact_address text_center mb-30">
 						<div class="contact_address_icon pb-3">
 							<i class="fa fa-clock-o"></i>
@@ -84,7 +84,7 @@ require("header.php");
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="single_contact_address text_center mb-30">
 						<div class="contact_address_icon pb-3">
 							<i class="fa fa-volume-control-phone"></i>
@@ -93,7 +93,7 @@ require("header.php");
 							<h4>Contact Directly</h4>
 						</div>
 						<div class="contact_address_text">
-							<p>g.gozalo@nexusbuildandconsultants.com, (PH) +63 9352314443</p>
+							<p>marketing@nexusbuildandconsultants.com, <br> (PH) +63 9352314443 / (US) +1 (602) 809-6601</p>
 						</div>
 					</div>
 				</div>
@@ -127,38 +127,55 @@ require("header.php");
 					</div>
 					<div class="contact_from">
 						<!-- <form id="contact_form" action="mail.php" method="POST" id="dreamit-form"> -->
-						<form action="forms/contact.php" method="post" role="form" id="dreamit-form" id="contact_form" data-recaptcha-site-key="6Lfyl6AqAAAAAAtvNKDs8JczaErlZ3AVa9myMnhi">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form_box mb-30">
-										<input type="text" class="form-control" name="first_name" hidden>
-										<input type="text" name="name" id="name" placeholder="Name">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form_box mb-30">
-										<input type="email" name="email" id="email" placeholder="Email Address">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form_box mb-30">
-										<input type="tel" name="phone" placeholder="Phone Number">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form_box mb-30">
-										<input type="text" name="subject" id="subject" placeholder="Subject">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form_box mb-30">
-										<textarea name="message" id="message" cols="30" rows="10" placeholder="Write a Message"></textarea>
-									</div>
-									<div class="quote_btn">
-										<button class="btn" type="submit">Send Message</button>
-									</div>
-								</div>
+						<form action="forms/contact.php" method="post" role="form" class="php-email-form"  data-recaptcha-site-key="6Lfyl6AqAAAAAAtvNKDs8JczaErlZ3AVa9myMnhi">
+						<div class="row">
+						<div class="col-lg-12">
+							<input type="text" class="form-control" name="first_name" hidden>
+							<div class="validate"></div>
+							<div class="form-box mb-30">
+							<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
 							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-box mb-30">
+							<input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-box mb-30">
+							<input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-box mb-30">
+							<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-box mb-30">
+							<textarea name="message" class="form-control" cols="30" rows="10" placeholder="Write a Message" required></textarea>
+							</div>
+							<div class="form-feedback">
+							<!-- Loading Message -->
+							<div class="loading text-blue font-bold" style="display: none;">Loading...</div>
+
+							<!-- Error Message -->
+							<div class="error-message text-red font-bold" style="display: none;">
+								<!-- Error message text will be dynamically inserted here by the script -->
+							</div>
+
+							<!-- Sent/Success Message -->
+							<div class="sent-message text-green font-bold" style="display: none;">
+								Your message has been sent. Thank you!
+							</div>
+							</div>
+							<div class="quote_btn text-center">
+								<button class="btn text-center" type="submit">Send Message</button>
+							</div>
+							<br>
+						</div>
+						</div>
+
 						</form>
 						<div class="status"></div>
 					</div>
@@ -178,7 +195,7 @@ require("header.php");
 		<div class="row-fluid">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="google_map_area">
-					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.167518058788!2d-106.95752532339804!3d44.797774577655815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a655555%3A0x3542e0a22355480!2s30%20N%20Gould%20St%20Ste.%20N%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sph!4v1733381881340!5m2!1sen!2sph"></iframe>		
+					<!-- <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.167518058788!2d-106.95752532339804!3d44.797774577655815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a655555%3A0x3542e0a22355480!2s30%20N%20Gould%20St%20Ste.%20N%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sph!4v1733381881340!5m2!1sen!2sph"></iframe>		 -->
 				</div>
 			</div>				
 		</div>

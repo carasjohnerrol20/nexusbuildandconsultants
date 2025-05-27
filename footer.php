@@ -38,7 +38,7 @@
 							<ul id="menu-quick-link" class="menu">
 								<li><a href="#">Sustainability Strategy</a></li>
 								<li><a href="#">Consulting & Advisory</a></li>
-								<li><a href="#">Project Managementn</a></li>
+								<li><a href="#">Project Management</a></li>
 								<li><a href="#">Innovation Solutions</a></li>
 							</ul>
 						</div>
@@ -47,9 +47,10 @@
 							</div>
 							<div class="follow-company-icon">
 								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-facebook"></i></a>
-								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="bi bi-twitter-x"></i></a>
-								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-linkedin"></i></a>
-								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://twitter.com/nexusbac" target="_blank"><i class="bi bi-twitter-x"></i></a>
+								<a href="https://www.linkedin.com/company/nexus-build-and-consultants-llc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+								<!-- <a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/" target="_blank"><i class="fa fa-instagram"></i></a> -->
+								<a href="https://www.youtube.com/@NEXUSBuildandConsultants" target="_blank"><i class="fa fa-youtube"></i></a>
 							</div>
 					</div>					
 				</div>
@@ -68,8 +69,10 @@
 					<div class="col-lg-6 col-md-6">
 						<div class="footer-bottom-right">
 							<div class="footer-bottom-right-text">
-								<a class="absod" href="#">Privacy Policy </a>
-								<a class="absod" href="faqs"> Faq</a>
+								<!-- <a class="absod" href="https://www.iubenda.com/privacy-policy/70668869">Privacy Policy </a> -->
+								<a href="https://www.iubenda.com/privacy-policy/70668869" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
+								<a href="https://www.iubenda.com/privacy-policy/70668869/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a>
+								<a class="absod" href="faqs"> &nbsp; / &nbsp; Faq</a>
 								<a href="contact"> Contact Us</a>
 							</div>
 						</div>
@@ -81,7 +84,8 @@
 	<!--==================================================-->
 	<!----- End Footer ----->
 	<!--==================================================-->
-	
+	    <!-- Modernizr -->
+		<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<!-- jquery js -->	
 	<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
 	<!-- bootstrap js -->	
@@ -118,7 +122,20 @@
 	<script src="assets/js/theme.js"></script>
 	<!-- jquery js -->	
 	<script src="assets/js/scrollCue.min.js"></script>
-	<script src="assets/php-email-form/validate.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=6Lfyl6AqAAAAAAtvNKDs8JczaErlZ3AVa9myMnhi&badge=bottomleft"></script>
 
+ <!-- iubenda Privacy Policy -->
+ <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+ <!-- iubenda Cookie Policy -->
+<script type="text/javascript">
+var _iub = _iub || [];
+_iub.csConfiguration = {"siteId":3879192,"cookiePolicyId":70668869,"lang":"en","storage":{"useSiteId":true}};
+</script>
+<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3879192.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
+<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
 </body>
 </html>

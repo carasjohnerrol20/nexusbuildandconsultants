@@ -100,7 +100,7 @@ require("header.php");
 							<img src="assets/images/video1.jpg" alt="" />
 							<div class="main_video">
 								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/Gz3JzAEOLTk"><i class="fa fa-play"></i></a>
+									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/SMlbgoEBG1E"><i class="fa fa-play"></i></a>
 								</div>
 							</div>
 						</div>
@@ -218,7 +218,7 @@ require("header.php");
 				</div>
 				<div class="col-lg-6">
 					<div class="tchn-button text-right" data-cue="slideInRight">
-						<a href="#">Learn More <i class="fa fa-long-arrow-right"></i></a>
+						<a href="services">Learn More <i class="fa fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -238,7 +238,7 @@ require("header.php");
 								<p>Departments managing infrastructure projects, facilities, and compliance, such as the Department of Defense (DoD), Defense Threat Reduction Agency (DTRA), and military bases.</p>
 							</div>
 							<div class="service_button">
-								<a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+								<a href="services">Read More <i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -258,7 +258,7 @@ require("header.php");
 								<p>Companies seeking specialized support in engineering design, inspection, testing, and construction management. <br><br></p>
 							</div>
 							<div class="service_button">
-								<a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+								<a href="services">Read More <i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -341,18 +341,77 @@ require("header.php");
 							</div>
 						</div>
 						<div class="col-lg-12">
-							<div class="seo-information" data-cue="zoomIn">
-								<div class="seo-pic">
-									<img src="assets/images/testi/software-testi-img3.png" alt="">
+						<div class="seo-information" data-cue="zoomIn">
+							<div class="seo-pic">
+								<img src="assets/images/testi/gen-gonzalo.png" alt="">
+							</div>
+							<!-- Content -->
+							<div class="seo-content">
+								<p>
+									As the Growth and Partnership Director at Nexus Build and Consultants, I’ve had the privilege of being part of a dynamic and forward-thinking company.
+								</p>
+								<div id="modalContent" class="collapsed-content">
+								<p>
+								As the Growth and Partnership Director at Nexus Build and Consultants, I bring over 15 years of combined experience in customer relations, quality management, business development and project management in BPO industry and federal projects. With a proven track record working with C-level executives handling clients from the USA, Australia, and Canada, I honed my skills in customer service and relationship management which further shaped my approach in understanding importance of building strong partnerships, meeting client needs effectively to delivering exceptional results. 
+								</p>
+								<p>
+								Nexus Build and Consultants, though a newer player, stands out for its commitment to delivering innovative, sustainable solutions. Our team’s fresh approach, expertise, and focus on long-term success allow us to tailor solutions that align with clients’ goals.
+								</p>
+								<p>
+								At Nexus, we prioritize listening and collaboration, ensuring we understand each client's unique needs and deliver high-quality, impactful results. We’re not just a service provider; we’re a trusted partner dedicated to driving your business’s success with reliable, sustainable outcomes.
+								</p>
 								</div>
-								<div class="seo-content">
-									<p>At NEXUS, we combine expertise and strategy to help organizations shape a more sustainable future.</p>
-									<div class="seo-name">
-										<h4>Gen Gonzalo<span>CEO At NEXUS</span></h4>
-									</div>
+								<div class="text-right">
+									<button id="readMoreBtn" class="btn btn-link text-primary font-weight-bold">Read More <i class="fa fa-chevron-down"></i></button>
+									<button id="closeBtn" class="btn btn-link text-primary font-weight-bold" style="display: none;">Close <i class="fa fa-chevron-up"></i></button>
+								</div>
+								<div class="seo-name">
+									<h4>Gen Gozalo<span>Growth and Partnership Director At NEXUS</span></h4>
 								</div>
 							</div>
 						</div>
+					</div>
+
+							<style>
+															/* Style the content to transition smoothly */
+								.collapsed-content {
+									max-height: 0;
+									overflow: hidden;
+									transition: max-height 0.3s ease-in-out;
+								}
+
+								.expanded-content {
+									max-height: 1000px; /* Adjust as necessary to fit your content */
+									overflow: visible;
+									transition: max-height 0.3s ease-in-out;
+								}
+
+								.seo-content .text-right button {
+									font-size: 14px;
+									font-weight: 600;
+									text-transform: uppercase;
+									color: #007bff;
+									background: none;
+									border: none;
+									cursor: pointer;
+								}
+
+								.seo-content .text-right button:hover {
+									color: #0056b3;
+									text-decoration: underline;
+								}
+
+								.seo-information {
+									position: relative;
+									z-index: 1;
+								}
+
+								.collapsed-content p:last-child {
+									margin-bottom: 0;
+								}
+
+							</style>
+
 					</div>
 				</div>
 				
@@ -393,32 +452,6 @@ require("header.php");
 						<div class="single_testimonial-box">
 							<div class="testimonial_content">
 								<div class="single_testimonial_thumb mr-4">
-									<img src="assets/images/testi/software-testi-img1.png" alt="" />
-								</div>
-								<div class="testimonial_title mt-2">
-									<h4>Al Amin Hossain </h4>
-									<span>Sustainability Consultant</span>
-								</div>
-							</div>
-							<div class="single_testimonial_desc mt-3">
-								<p>NEXUS Build and Consultants, LLC helped our business redefine sustainability goals and achieve measurable outcomes. Their tailored approach drives innovation.</p>
-							</div>
-							<div class="testi-rating">
-								<ul>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-								</ul>
-							</div>	
-						</div>
-					</div>
-					<!-- Start Single Testimonial -->
-					<div class="col-lg-12">
-						<div class="single_testimonial-box">
-							<div class="testimonial_content">
-								<div class="single_testimonial_thumb mr-4">
 									<img src="assets/images/testi/software-testi-img2.png" alt="" />
 								</div>
 								<div class="testimonial_title mt-2">
@@ -448,7 +481,7 @@ require("header.php");
 									<img src="assets/images/testi/software-testi-img3.png" alt="" />
 								</div>
 								<div class="testimonial_title mt-2">
-									<h4>Joseph Martinez</h4>
+									<h4>Jane Smith</h4>
 									<span>Operations Manager</span>
 								</div>
 							</div>
@@ -470,11 +503,11 @@ require("header.php");
 						<div class="single_testimonial-box">
 							<div class="testimonial_content">
 								<div class="single_testimonial_thumb mr-4">
-									<img src="assets/images/testi/software-testi-img2.png" alt="" />
+									<img src="assets/images/testi/software-testi-img1.png" alt="" />
 								</div>
 								<div class="testimonial_title mt-2">
-									<h4>Mhehedi Hassan </h4>
-									<span>Business Strategist</span>
+									<h4>John Smith </h4>
+									<span>Business Consultant</span>
 								</div>
 							</div>
 							<div class="single_testimonial_desc mt-3">
@@ -683,7 +716,6 @@ require("header.php");
 	<div class="team_area style-1 pt-110 pb-70">
 		<div class="container">
 			<div class="row">
-				<!-- Start Section Tile -->
 				<div class="col-lg-12">
 					<div class="section_title text_center mb-50" data-cue="zoomIn">
 						<div class="section_main_title">
@@ -693,24 +725,24 @@ require("header.php");
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" style="display: flex; justify-content: center; align-items: center;">
 				<div class="col-lg-3 col-md-6">
-					<div class="team_single_box " data-cue="zoomIn">
+					<div class="team_single_box" data-cue="zoomIn">
 						<div class="team_-thumb">
-							<img src="assets/images/team/software-team-img3.png" alt="img" />
+							<img src="assets/images/team/Gen-Gozalo.png" alt="Gen-Gozalo.png" />
 							<div class="team_social_icon">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="bi bi-twitter-x"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.facebook.com/people/NEXUS-Build-and-Consultants-LLC/61571035430495/"><i class="fa fa-facebook"></i></a>
+								<a href="https://twitter.com/nexusbac"><i class="bi bi-twitter-x"></i></a>
+								<a href="https://www.youtube.com/@NEXUSBuildandConsultants"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 						<div class="team_single_content">
-							<h4>Gen Gonzalo</h4>
-							<span>Director of Operations</span>
+							<h4>Gen Gozalo</h4>
+							<span>Growth and Partnership Director</span>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<!-- <div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
 							<img src="assets/images/team/software-team-img2.png" alt="img" />
@@ -721,12 +753,12 @@ require("header.php");
 							</div>
 						</div>
 						<div class="team_single_content">
-							<h4>Clint Easton</h4>
+							<h4>John Doe</h4>
 							<span>Cheif Information Officer</span>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
 							<img src="assets/images/team/software-team-img3.png" alt="img" />
@@ -737,12 +769,12 @@ require("header.php");
 							</div>
 						</div>
 						<div class="team_single_content">
-							<h4>Gen Gonzalo</h4>
+							<h4>Gen Gozalo</h4>
 							<span>Chief Financial Officer</span>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-6">
 					<div class="team_single_box " data-cue="zoomIn">
 						<div class="team_-thumb">
 							<img src="assets/images/team/		software-team-img4.png" alt="img" />
@@ -753,11 +785,11 @@ require("header.php");
 							</div>
 						</div>
 						<div class="team_single_content">
-							<h4>Clint Easton</h4>
+							<h4>John Smith</h4>
 							<span>App Developer</span>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				
 			</div>
 		</div>
@@ -766,6 +798,31 @@ require("header.php");
 	<!----- End NEXUS Team Two Area ----->
 	<!--==================================================-->
 
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	const readMoreBtn = document.getElementById("readMoreBtn");
+	const closeBtn = document.getElementById("closeBtn");
+	const modalContent = document.getElementById("modalContent");
+
+	// Show full content and toggle buttons
+		readMoreBtn.addEventListener("click", function () {
+		modalContent.classList.remove("collapsed-content");
+		modalContent.classList.add("expanded-content");
+		readMoreBtn.style.display = "none";
+		closeBtn.style.display = "inline-block";
+	});
+
+	// Collapse content and toggle buttons
+	closeBtn.addEventListener("click", function () {
+	modalContent.classList.remove("expanded-content");
+	modalContent.classList.add("collapsed-content");
+	closeBtn.style.display = "none";
+	readMoreBtn.style.display = "inline-block";
+	});
+	});
+
+	</script>
 
   <!-- Footer File -->
   <?php include_once 'footer.php';?>

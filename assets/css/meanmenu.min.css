@@ -145,7 +145,7 @@ a.meanmenu-reveal{display:none}
 } */
 .mean-container .mean-bar::before {
   content: "";
-  background-image: url('../images/NEXUS-Build-and-Consultants-LLC-headerWhite.png');
+  background-image: url('../images/brand/NEXUS-Build-and-Consultants-LLC-headerWhite.png');
   background-size: contain;  /* This ensures the image scales while preserving its aspect ratio */
   background-repeat: no-repeat;
   background-position: center;  /* Centers the image inside the container */
